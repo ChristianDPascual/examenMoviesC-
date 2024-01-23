@@ -12,8 +12,5 @@ int controller_modificarElemento(LinkedList* pListado);
 int controller_eliminarElemento(LinkedList* pListado);
 int controller_mapCargarDuracion(LinkedList* pListado);
 int controller_filtrarGenero(LinkedList* pListado);
-/*
-int controller_mapAtaqueCargadoEventoKanto(LinkedList* pokedex);
-int controller_batallaPokemon(LinkedList* pokedex);
-*/
+
 #endif /* CONTROLLER_H_ */
