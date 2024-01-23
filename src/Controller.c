@@ -121,39 +121,7 @@ int controller_listarElementos(LinkedList* pListado)
     }
     return retorno;
 }
-/*
-int controller_modificarElemento(LinkedList* lista)
-{
-	int retorno = FALSE;
 
-	if(lista != NULL)
-	{
-		if(Struct_modificarStruct(lista)==TRUE)
-		{
-			retorno = TRUE;
-		}
-
-	}
-
-	return retorno;
-}
-
-int controller_eliminarElemento(LinkedList* pokedex)
-{
-	int retorno = FALSE;
-
-	if(pokedex != NULL)
-	{
-		if(Struct_eliminarStruct(pokedex)==TRUE)
-		{
-			retorno = TRUE;
-		}
-
-	}
-
-	return retorno;
-}
-*/
 int controller_mapCargarDuracion(LinkedList* pListado)
 {
 	int retorno = FALSE;
@@ -178,51 +146,3 @@ int controller_filtrarGenero(LinkedList* pListado)
 
 		return retorno;
 }
-/*
-int controller_mapAtaqueCargadoAtmosferico(LinkedList* pokedex)
-{
-	int retorno = FALSE;
-
-	if(pokedex != NULL && ll_len(pokedex)>0)
-	{
-		pokedex = ll_map(pokedex,mapearAtaqueCargadoAtmosferico);
-	    retorno = TRUE;
-	}
-
-	return retorno;
-	}
-
-int controller_mapAtaqueCargadoEventoKanto(LinkedList* pokedex)
-{
-	int retorno = FALSE;
-
-	if(pokedex != NULL && ll_len(pokedex)>0)
-	{
-		pokedex = ll_map(pokedex,mapearAtaqueCargadoEventoKanto);
-	    retorno = TRUE;
-	}
-
-	return retorno;
-	}
-
-int controller_batallaPokemon(LinkedList* pokedex)
-{
-	int retorno = FALSE;
-
-	if(pokedex != NULL)
-	{
-		if(batallaPokemon(pokedex) == TRUE)
-		{
-			printf("Exito has ganado\n");
-		}
-		else
-		{
-			printf("Mala suerte has perdido\n");
-		}
-		retorno  = TRUE;
-
-	}
-
-	return retorno;
-	}
-*/
